@@ -1,0 +1,13 @@
+.{
+    .name = "a",
+    .version = "0.0.0",
+    .dependencies = .{
+        .b = .{ .path = "b" },
+        .c = .{ .path = "c" },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "main.zig",
+    },
+}
