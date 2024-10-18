@@ -1,0 +1,19 @@
+.{
+    .name = "a",
+    .version = "0.0.0",
+    .dependencies = .{
+        .utils = .{
+            .url = "https://github.com/dermetfan/utils.zig/archive/82c4e25b53ad16d0d26e46d0d4e946c6bc78a360.tar.gz",
+            .hash = "122061dbc38c8c05e5c50bd51f35598c0fc2863efd4ef207af6079bc9c16792c2ead",
+        },
+        .b = .{
+            .url = "https://github.com/dermetfan/zig-issue-lazy-dep/archive/4d78b9e540e0e9f31fd3040b5565ee0ead280a54.tar.gz",
+            .hash = "1220b40f23a3349835187cef82bfd8d16cbd2157ed87a575f14c8879c7e4a53a799b",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "main.zig",
+    },
+}
